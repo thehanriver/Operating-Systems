@@ -1,4 +1,10 @@
-new things from project2
+# Thread Synchronization
+## Idea
+Trying to exted threading library with synchronization primitives so threads can interact
+
+## Description
+I tried to put a lockign mechanisms to turn on/off thread interactivity, join threads and add semaphore support.
+### New Things from User Thread Library Project
 
 lock() -> can no longer be interrupeted. Uses sigprogmask.
 unlock() -> thread resumes just like normal in the Next SIGALRM
