@@ -3,7 +3,8 @@
 Implement a file system on top of a virtual disk and understand how file systems work
 
 ## Description
-*Basically, trying to implement a file system on top of a Linux file system
+**Basically, trying to implement a file system on top of a Linux file system
+
 I didn't understand how to use the super_block so trying to navigate around memory was especially challenging. I didn't pass/complete many of the functions properly but I managed to pass some.
 
 make_fs: it first checks to see if make_disk is successful. Then it calls mount fs which loads the content of memory into the disk, which is the superblock, FAT, and directory entry.
