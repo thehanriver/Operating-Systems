@@ -1,3 +1,14 @@
+# Simple Linux Shell in C
+## Description
+
+The plan is to make a simple shell that's able to execute commands, pipe output commands to other commands, carry out commands in the background, and redirect some input/output stuff.
+
+## Status
+
+Some commands such as ls work while other operations such as piping and commands in the background doesn't yet. I plan to work on it a little bit more in the future for completion.
+
+## Problems
+
 For this project, I ran into alot of problems. Because of this I had a lot of trouble trying to implement the shell. 
 It is able to do basic commands such as ls, cat, etc.,but when meta-characters were involved, execvp was always -1.
 In doing so, I had to create multiple .c files and start over again multiple times. To no prevail, I was unable to 
