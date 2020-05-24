@@ -1,3 +1,9 @@
+# Thread Local Storage
+## Idea
+Trying to work with memory managements and provide memory regions for threads
+
+## Description
+This is to try and implement memory regions for threads.
 To begin, I do not know hash maps (or atlest I don't remember how to implement it) therefore I used a linked list for mapping of the threads to TLS. 
 
 tls_protect and tls_unprotect are helped functions that essentially help protect and unprotect the pages. It was given to us in discussion slides and it uses mprotect.
