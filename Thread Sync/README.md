@@ -18,5 +18,5 @@ the head to the thread id
 sem_post -> uses __align and increments semaphore current_value which unlocks the semaphore
 sem_destory -> destorys semaphore depending on *sem argument
 
-trouble with different start_routines. Looks like it works but tests wont't passdue to this I think producer consumer test wont work
+Trouble with different start_routines. Looks like it works but tests wont't passdue to this. I think producer-consumer test wont work
 8,9,10 sometihng in pthread_join or pthread_exit is not working correctly
